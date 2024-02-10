@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Fashion Brand Landing Page</title>
+  <link rel="stylesheet" href="class1.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#hero">Fashion</a>
+      <a href="#collections">Beauty</a>
+      <a href="#about">Home</a>
+      <a href="#shop-now">Collections</a>
+    </nav>
+    <a href="#" class="logo">Eleganzo</a>
+  </header>
+  <main>
+    <section id="hero">
+      <h1>Unleash your confidence through fashion</h1>
+      <h2>Redefine your look,rewrite your story.</h2>
+      <a href="#">Shop Now</a>
+      <img src="bibas.jpg.jpeg" alt="Hero Image">
+    </section>
+    <section id="collections">
+      <h2>Midnight Steals</h2>
+      <div class="collection-grid">
+        <div class="collection">
+          <h3>Spring Summer'24</h3>
+          <h4>Hot Deals</h4>
+          <a href="#">Shop Now</a>
+        </div>
+        <div class="collection"></div>
+      </div>
+    </section>
+    <section id="Discounts">
+      <h2>Fashion Carnival</h2>
+      <div class="Discount-grid">
+        <div class="Discount">
+          <h4>Upto 60% Off</h4>
+          <h4>Match made in Eleganzo!</h4>
+          <a href="#">Explore new arrivals</a>
+        </div>
+        <div class="Discount"></div>
+      </div>
+    </section>
+    <section id="shop-now">
+      <h2>**The Love Lookbook**</h2>
+      <p>Let's Dress to Impress</p>
+      <h5>Brunch With The Besties</h5>
+      <a href="#">Shop Now</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy;Eleganzo 2024</p>
+  </footer>
+</body>
+</html>
+
+__________________________________________________________________________________CSS______________________________________________________________________________________________________
+/* Basic styles */
+body {
+  font-family: Copperplate, Papyrus, fantasy;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background-color:#ffe5e5;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Hero section styles */
+#hero {
+  background-color:#cce5ff;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero img {
+  width: 300px;
+  margin-top: 30px;
+}
+
+/* Collection section styles */
+#collections {
+  padding: 30px;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns:auto,auto;
+}
