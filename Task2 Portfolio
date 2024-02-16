@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <title>Personal Portfolio Website Template</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="element.css">
+ </head>
+ <body>
+<div class="main-panel">
+    <div class="container">
+      <div class="width-33 logo">Port <span class="span-col">folio</span>
+      </div>
+      <div class="width-60">
+        <nav>
+          <a href="#">
+            <span class="span-col">Home</span>
+          </a>
+          <a href="#">
+            <span class="span-col">About Me</span>
+          </a>
+          <a href="#">
+            <span class="span-col">Education</span>
+          </a>
+          <a href="#">
+            <span class="span-col">My Services</span>
+          </a>
+          <a href="#">
+            <span class="span-col">Portfolio</span>
+          </a>
+        </nav>
+      </div>
+    </div>
+<div class="container ">
+    <div class="width-50">
+      <div class="banner-section">
+        <h1><span class="span-col"> Sanjana Vepa</span>
+        </h1>
+        <h2>-I'm an entusiastic Webdeveloper</h2>
+    </div>
+    <div class="width-50">
+      
+    </div>
+  </div>
+  </div>
+  <!------ABOUT US SECTION------>
+<div class="main-section bg-lightgrey">
+    <div class="container">
+      <div class="width-5">
+        <img src="sanju1.jpg" class="about-img">
+      </div>
+      <div class="width-5">
+        <div class="about-us">
+          <h2 class="heading-text"><span class="span-col">About Me</span></h2>
+          <p><span class="span-col1">I am Sanjana Vepa.I am currently pursuing my BTech in Computer Science and Enginnering stream.</span></p>
+          <div class="width-5 mt-20">
+            <table cellspacing="8" cellpadding="8">
+              <tr>
+                <th><span class="span-col1">Name:</span></th>
+                <td><span class="span-col1">Sanjana Vepa</span></td>
+              </tr>
+              <tr>
+                <th><span class="span-col1">Email:</span></th>
+                <td><span class="span-col1">sanjanavepa2003@gmail.com</span></td>
+              </tr>
+              <tr>
+                <th><span class="span-col1">Birthday:</span></th>
+                <td><span class="span-col1">25 August,2003</span></td>
+              </tr>
+              <tr>
+                <th><span class="span-col1">Study:</span></th>
+                <td><span class="span-col1">Gandhi Institute of Technology</span></td>
+              </tr>
+            </table>
+          </div>
+          <div class="width-50 mt-20">
+            <table cellspacing="8" cellpadding="8">
+              <tr>
+                <th><span class="span-col1">City:</span></th>
+                <td><span class="span-col1">Visakhapatnam,Andhra Pradesh</span></td>
+              </tr>
+              
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------SKILL SECTION------>
+<div class="main-section">
+    <div class="container">
+      <h2 class="heading-text"><span class="span-col">My Skills</span></h2>
+      <div class="width-50">
+        <div class="skill">
+          <b>HTML</b>
+          <span>80%</span>
+          <div>
+            <span style="width:95%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <b>CSS</b>
+          <span>70%</span>
+          <div>
+            <span style="width:91%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <b>JavaScript</b>
+          <span>70%</span>
+          <div>
+            <span style="width:85%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <b>Java</b>
+          <span>60%</span>
+          <div>
+            <span style="width:79%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <b>python</b>
+          <span>70%</span>
+          <div>
+            <span style="width:91%"></span>
+          </div>
+        </div>
+      </div>
+  <!------EXPERIENCE SECTION------>
+<div class="main-section bg-lightgrey">
+    <div class="container">
+      <h2 class="heading-text"><span class="span-col">Education</span></h2>
+        <div class="experience-list">
+          <div class="experience-content">
+            <h2 span class="span-col1">SPVN HIGH SCHOOL</span</h2>
+            <h3 span class="span-col1">2010-2021</span</h3>
+            <h4 span class="span-col1">95% in 10th Standard</h4>
+            <h4 span class="span-col1">96% in 12th Standard</h4>
+          </div>
+        </div>
+        <div class="experience-list">
+          <div class="experience-content">
+            <h2 span class="span-col1">Gandhi Institute of Technology and Management</h2>
+            <h3 span class="span-col1">2021-2025</h3>
+            <p span class="span-col1">B.Tech in Computer science and Enginnering with specilization in Artificial Intelligence and Machine Learning.</p>
+          </div>
+        </div>
+        
+      </div>
+  <!------FOOTER SECTION------>
+<div class="footer">
+    <div class="container">
+      </div>
+      <i><b<div class="footer-sect mt-20 width-60">Sanjana Vepa</div></i></div></b>
+    </div>
+  </div>
+
+
+
+------------------------------------------------------------------------------------CSS-----------------------------------------------------------------------------------------------------
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:"Times New Roman",Times serif;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .main-panel {
+    background-color:#000000;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .logo {
+    font-size: 2.0em;
+  }
+  
+  .span-col {
+    color: #ff00bb;
+  }
+  .span-col1 {
+    color: #000000;
+  }
+
+  
+  nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #140707;
+    margin: 0 15px;
+  }
+  
+  .banner-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color:#f4f0ff;
+  }
+  
+  .banner-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .banner-section h2 {
+    font-size: 2.0em;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .banner-section a {
+    font-size: 2.0em;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .about-img {
+    width:400px;
+    height:400px;
+  }
+  
+  .main-section {
+    padding: 50px 0;
+  }
+  
+  .heading-text {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill b {
+    display: inline-block;
+    width: 80px;
+  }
+  
+  .experience-list {
+    margin-bottom: 30px;
+  }
+  
+  .experience-content h2 {
+    font-size:2.0em;
+  }
+  
+  .bg-lightgrey {
+    background-color: #e1e6ff;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
