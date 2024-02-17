@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="element.css">
+</head>
+<body>
+  <div class="toconvert">
+  <h1>Temperature Converter</h1>
+  <input type="number" id="inputtemp" placeholder="Enter temperature">
+  <select id="select1">
+    <option value="celsius">Celsius</option>
+    <option value="fahrenheit">Fahrenheit</option>
+    </select>
+    <button onclick="Tempconvert()">Convert</button>
+    <p id="result"></p>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
+
+----------------------------------------------------------------CSS FILE --------------------------------------------------------------------
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  display:flex;
+}
+.toconvert {
+  text-align: center;
+}
+input[type="number"] {
+  padding: 15px;
+  margin: 10px;
+}
+select {
+  padding: 15px;
+  margin: 15px;
+}
+button {
+  padding: 15px 16px;
+  margin: 15px;
+  cursor: pointer;
+  color: blue;
+}
+#result {
+  font-size: 20px;
+}
+
+---------------------------------------------------------------JS FILE --------------------------------------------------------------------
+
+function Tempconvert() {
+  const inputtemp = document.getElementById('inputtemp').value;
+  const select1 = document.getElementById('select1');
+  const selectedUnit = select1.options[select1.selectedIndex].value;
+  let convertedTemperature;
+  let unit;
+  if (selectedUnit ==='celsius') {
+    convertedTemperature = (parseFloat(inputtemp) * 9 / 5) + 32;
+    unit = 'Fahrenheit';
+  } else {
+    convertedTemperature = (parseFloat(inputtemp) - 32) * 5 / 9;
+    unit = 'Celsius';
+  }
+ document.getElementById('result').innerText = `Converted Temperature: ${convertedTemperature.toFixed(2)} ${unit}`;
+}
