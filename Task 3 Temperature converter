@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="element.css">
+</head>
+<body>
+  <div class="toconvert">
+  <h1>Temperature Converter</h1>
+  <input type="number" id="inputtemp" placeholder="Enter temperature">
+  <select id="select1">
+    <option value="celsius">Celsius</option>
+    <option value="fahrenheit">Fahrenheit</option>
+    </select>
+    <button onclick="Tempconvert()">Convert</button>
+    <p id="result"></p>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
