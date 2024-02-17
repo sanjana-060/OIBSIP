@@ -122,3 +122,32 @@ nav a {
   display: grid;
   grid-template-columns:auto,auto;
 }
+
+.collection {
+  background-color:Orange;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left;
+}
+#Discounts {
+  padding: 50px;
+}
+
+.Discount-grid {
+  display: grid;
+  grid-template-columns:auto,auto;
+  
+}
+.Discount {
+  background-color:aquamarine;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: right;
+
+}
+
+#shop-now {
+  background-color:violet ;
+  text-align: center;
+  padding: 50px;
+}
